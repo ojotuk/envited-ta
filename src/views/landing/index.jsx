@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Heading, Image, Text } from '@chakra-ui/react';
 import EnvitedButton from '../../components/common/button';
-import Cake from '../../assets/Landing page image.svg';
+import LandingImg from '../../assets/Landing page image.svg';
 import { Link } from 'react-router-dom';
 //
 const LandingView = () => {
@@ -62,7 +62,7 @@ const LandingView = () => {
             justifyContent={{ base: 'center', lg: 'start' }}
             flex={1}
           >
-            <Image src={Cake} width={{ base: '50%', lg: '60%' }} />
+            <Image src={LandingImg} width={{ base: '50%', lg: '60%' }} />
           </Box>
           <Box justifyContent="center" display={{ base: 'flex', lg: 'none' }}>
             <Link to="/events">
